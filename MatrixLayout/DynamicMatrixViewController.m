@@ -31,7 +31,8 @@
 			[button sizeToFit];
 			[self.view addSubview:button];
 			button.backgroundColor = [UIColor greenColor];
-
+			
+			//This line is important
 			button.translatesAutoresizingMaskIntoConstraints = NO;
 			//constrasting
 			//button.conterY = super.centerY * rowMutiplier*(i+1)
