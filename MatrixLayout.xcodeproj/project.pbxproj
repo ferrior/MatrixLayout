@@ -15,6 +15,7 @@
 		4A8A9B8D1C5C39CD00F260F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A9B8B1C5C39CD00F260F3 /* LaunchScreen.storyboard */; };
 		4A8A9B981C5C39CD00F260F3 /* MatrixLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A9B971C5C39CD00F260F3 /* MatrixLayoutTests.m */; };
 		4A8A9BA31C5C39CD00F260F3 /* MatrixLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A9BA21C5C39CD00F260F3 /* MatrixLayoutUITests.m */; };
+		4A8A9BB51C5C80AD00F260F3 /* DynamicMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A9BB41C5C80AD00F260F3 /* DynamicMatrixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4A8A9B9E1C5C39CD00F260F3 /* MatrixLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A9BA21C5C39CD00F260F3 /* MatrixLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixLayoutUITests.m; sourceTree = "<group>"; };
 		4A8A9BA41C5C39CD00F260F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8A9BB31C5C80AD00F260F3 /* DynamicMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMatrixViewController.h; sourceTree = "<group>"; };
+		4A8A9BB41C5C80AD00F260F3 /* DynamicMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMatrixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4A8A9B811C5C39CD00F260F3 /* AppDelegate.m */,
 				4A8A9B831C5C39CD00F260F3 /* ViewController.h */,
 				4A8A9B841C5C39CD00F260F3 /* ViewController.m */,
+				4A8A9BB31C5C80AD00F260F3 /* DynamicMatrixViewController.h */,
+				4A8A9BB41C5C80AD00F260F3 /* DynamicMatrixViewController.m */,
 				4A8A9B861C5C39CD00F260F3 /* Main.storyboard */,
 				4A8A9B891C5C39CD00F260F3 /* Assets.xcassets */,
 				4A8A9B8B1C5C39CD00F260F3 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8A9B851C5C39CD00F260F3 /* ViewController.m in Sources */,
+				4A8A9BB51C5C80AD00F260F3 /* DynamicMatrixViewController.m in Sources */,
 				4A8A9B821C5C39CD00F260F3 /* AppDelegate.m in Sources */,
 				4A8A9B7F1C5C39CD00F260F3 /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				4A8A9BA91C5C39CD00F260F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A8A9BAA1C5C39CD00F260F3 /* Build configuration list for PBXNativeTarget "MatrixLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				4A8A9BAC1C5C39CD00F260F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A8A9BAD1C5C39CD00F260F3 /* Build configuration list for PBXNativeTarget "MatrixLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				4A8A9BAF1C5C39CD00F260F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
